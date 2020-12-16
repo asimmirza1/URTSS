@@ -1,3 +1,4 @@
+import {MatDialog, MatDialogConfig} from "@angular/material/dialog";
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'URTSS';
+  title = 'URTSS'
 }
