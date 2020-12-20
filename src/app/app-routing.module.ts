@@ -8,6 +8,7 @@ import { AllTicketsComponent } from './all-tickets/all-tickets.component'
 
 const routes: Routes = [
   {path: '', component: LoginComponent},
+  {path: 'login', component: LoginComponent},
   {path: 'wrsTickets', component:  WRSTicketsComponent},
   {path: 'urbpsTickets', component:  UrbpsTicketsComponent},
   {path: 'vendorTickets', component:  VendorTicketsComponent},
